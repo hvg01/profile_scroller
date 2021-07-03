@@ -238,7 +238,7 @@ class _HomepageState extends State<Homepage> {
                                       child: Stack(
                                         children: [
                                           Container(
-                                            height: 127,
+                                            height: MediaQuery.of(context).size.height/8.35+30,
                                             width: 6,
                                             decoration: BoxDecoration(
                                               borderRadius: BorderRadius.circular(50),
